@@ -1,2 +1,13 @@
 server:
   port: 9008
+
+
+
+spring:
+  application:
+    name: zgnetsdk
+
+
+sdk:
+  #是否加载sdk
+  enable: true
