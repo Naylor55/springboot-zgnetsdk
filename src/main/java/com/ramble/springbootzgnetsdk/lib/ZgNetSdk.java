@@ -119,7 +119,7 @@ public interface ZgNetSdk extends Library {
     public static final int CONFIG_DEV_VIDEO_COVER = 4099;
 
 
-    ZgNetSdk INSTANCE = (ZgNetSdk) Native.loadLibrary(OSUtils.getLibraryPath(), ZgNetSdk.class);
+    ZgNetSdk INSTANCE = (ZgNetSdk) Native.loadLibrary(OSUtils.getLoadLibrary(), ZgNetSdk.class);
 
 
     public static class IDM_DEV_DEVICE_INFO_S extends Structure {
